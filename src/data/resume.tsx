@@ -25,7 +25,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     {
-      href: "https://www.canva.com/design/DAGI1WFvucQ/2aV2Rv3BF_7ZOegMm-rZ8A/edit",
+      href: "https://drive.google.com/file/d/1eAZocry-jQujqYIiDxrC7XR-9ik-0eV3/view?usp=drive_link",
       icon: NotebookIcon,
       label: "Resume",
     },
@@ -132,7 +132,7 @@ export const DATA = {
       title: "Intern @Cognitive Solution",
       logoUrl: "/cognitive.jpg",
       start: "May 2017",
-      end: "August 2017",
+      end: "Aug 2017",
       description: [
         "Developed a robust e-commerce platform that allowed users to seamlessly list, browse, and purchase products.",
         "Utilized Python and Django to implement backend functionality, ensuring a secure and intuitive shopping experience.",
@@ -163,7 +163,7 @@ export const DATA = {
       degree: "Higher secondary level of education",
       logoUrl: "/chinmaya.jpg",
       start: "2016",
-      end: "2028",
+      end: "2018",
     },
     {
       school: "Apsara Public School",
