@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   verification: {
-    google: "",
+    google: "2NXoYjrzPis8ER-nPSJ9juVWMOeaLpk2cYVxr1o-MmM",
     yandex: "",
   },
   icons: "/favicon.ico",
