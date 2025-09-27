@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Hi, I'm Nazal, a software developer passionate about building smart solutions that enhance user experiences and add a touch of joy to every interaction.",
   summary:
-    "Hello, I'm Nazal Mohammed Iqbal, a Computer Science Engineering graduate from P.A College of Engineering. My journey into web development began with building small websites using HTML and CSS, igniting my passion for a career in this field. Over time, I have gained valuable experience working on various projects, specializing in technologies like React, Next.js, and Angular, while also expanding my proficiency in Node.js and Nest.js. I am dedicated to crafting innovative solutions and leveraging technology to create impactful digital experiences.",
+    "Hello, I'm Nazal Mohammed Iqbal, a Computer Science Engineering graduate from P.A College of Engineering. My journey into web development began with building small websites using HTML and CSS, igniting my passion for a career in this field. Over time, I have gained valuable experience working on various projects, specializing in technologies like React, Next.js, and Angular, while also expanding my proficiency in Node.js and Nest.js. Currently, I am based in Dubai, developing the main website for Token 13 and building a multi-chain Chrome extension wallet that enables users to buy, sell, exchange crypto, manage multiple wallets, and interact with decentralized applications (dApps). I am dedicated to crafting innovative solutions and leveraging technology to create impactful digital experiences.",
   avatarUrl: "/1.jpg",
   skills: [
     "React",
@@ -24,6 +24,7 @@ export const DATA = {
     ".NET",
     "SQL",
     "Python",
+    "Chrome extension development",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -69,6 +70,42 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "Token 13 Software L.L.C",
+      href: "https://token13.net/",
+      badges: [],
+      location: "Dubai, UAE",
+      title: "Web Developer, Software Development",
+      logoUrl: "/token13.svg",
+      start: "May 2025",
+      end: "Present",
+      description: [
+        "Developing the official Token 13 website to showcase products and services with a responsive, user-centric design.",
+        "Building a multi-chain Chrome extension wallet enabling users to buy, sell, exchange crypto, and manage multiple wallets securely.",
+        "Implemented dApp interaction features to allow seamless connection with decentralized applications (DeFi, NFT, Web3 platforms).",
+        "Focused on security, scalability, and smooth user experience in Web3 wallet development.",
+      ],
+      projects: [
+        {
+          name: "Token 13 Website",
+          tasks: [
+            "Developing a responsive and SEO-optimized website to showcase the company's products, services, and Web3 offerings.",
+            "Implemented dynamic content management using modern frontend technologies including Next.js, React, Tailwind CSS, and Shadcn components.",
+            "Ensured cross-device compatibility and performance optimization for high-traffic user engagement.",
+            "Integrated analytics and tracking to monitor user interactions and improve website effectiveness.",
+          ],
+        },
+        {
+          name: "Token 13 Chrome Extension Wallet",
+          tasks: [
+            "Building a multi-chain wallet extension enabling users to buy, sell, exchange crypto, and manage multiple wallets securely.",
+            "Implemented features for connecting and interacting with decentralized applications (dApps) including NFT marketplaces and DeFi platforms.",
+            "Focused on security best practices, including encrypted storage and secure API communications.",
+            "Ensured a smooth, intuitive, and scalable user experience while maintaining high performance for Web3 interactions.",
+          ],
+        },
+      ],
+    },
     {
       company: "Codecraft Technologies",
       href: "https://www.codecrafttech.com/",
@@ -127,6 +164,7 @@ export const DATA = {
         },
       ],
     },
+
     {
       company: "Cognitive Solution",
       href: "http://cognitivesolution.in/",
