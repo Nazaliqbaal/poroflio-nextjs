@@ -254,7 +254,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/tac-bg.PNG",
+      image: "/tac-bg.png",
     },
     {
       title: "Zeta Logistics",
@@ -276,7 +276,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/zeta-bg.PNG",
+      image: "/zeta-bg.png",
     },
     {
       title: "Leens Trading",
@@ -298,7 +298,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/leens-bg.PNG",
+      image: "/leens-bg.png",
     },
     {
       title: "Personal Finance Tracker",
