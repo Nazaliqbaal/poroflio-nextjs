@@ -29,7 +29,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     {
-      href: "https://drive.google.com/file/d/1DexU-zcBNanRl7HiECguYrq9otB2JeMl/view?usp=drive_link",
+      href: "https://drive.google.com/file/d/1cOOBuTMuSli4fdH5o5G4W9tMWEcFLlcd/view?usp=sharing",
       icon: NotebookIcon,
       label: "Resume",
     },
@@ -217,28 +217,6 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Movie OTT",
-      href: "https://movie-ott-watch.netlify.app",
-      dates: "Jan 2024 - Feb 2024",
-      active: true,
-      description:
-        "Movie OTT streaming platform, offers an immersive entertainment experience. With this app, users can sign up and sign in, enabling them to search for their favorite movies, TV shows, and series.",
-      technologies: ["Angular", "Typescript"],
-      links: [
-        {
-          type: "Website",
-          href: "https://movie-ott-watch.netlify.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Nazaliqbaal/OTT-App",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/movie-ott-bg.PNG",
-    },
-    {
       title: "Visit Manglore",
       href: "https://visitmangalore.in/",
       dates: "June 2023 - Present",
@@ -260,6 +238,67 @@ export const DATA = {
         },
       ],
       image: "/visitmanglore.png",
+    },
+    {
+      title: "TAC Design",
+      href: "https://tacdesignlab.com/",
+      dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "A responsive website for TAC Design LAB, a sustainable architecture studio in Kerala, showcasing their philosophy, portfolio of projects, services, and client testimonials. The platform highlights eco-friendly design principles and innovative architecture practices through an intuitive and visually engaging interface.",
+      technologies: ["NextJS", "Strapi", "TailwindCSS", "Shadcn UI"],
+      links: [
+        {
+          type: "Website",
+          href: "https://tacdesignlab.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/tac-bg.PNG",
+    },
+    {
+      title: "Zeta Logistics",
+      href: "https://zetadxb.com/",
+      dates: "Jan 2025",
+      active: true,
+      description:
+        "A responsive website for Zeta Logistics, a company providing logistics and transportation services in the UAE. The website showcases their services, portfolio of projects, and contact information.",
+      technologies: ["React", "TailwindCSS", "EmailJS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://zetadxb.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Nazaliqbaal/zeta",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/zeta-bg.PNG",
+    },
+    {
+      title: "Leens Trading",
+      href: "https://leenstrading.com/",
+      dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "A responsive website for Leens Trading, a company providing trading services in the UAE. The website showcases their products, bestsellers, and contact information.",
+      technologies: ["React", "TailwindCSS", "EmailJS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://leenstrading.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Nazaliqbaal/leens-trading",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/leens-bg.PNG",
     },
     {
       title: "Personal Finance Tracker",
