@@ -240,7 +240,15 @@ export const DATA = {
       active: true,
       description:
         "An AI-powered resume analyzer that evaluates resumes and provides detailed feedback, scores, and actionable suggestions to help users improve their job applications.",
-      technologies: ["React", "Typescript", "TailwindCSS"],
+      technologies: [
+        "React",
+        "Typescript",
+        "TailwindCSS",
+        "Express",
+        "MongoDB",
+        "Claude",
+        "Grok",
+      ],
       links: [
         {
           type: "Website",
