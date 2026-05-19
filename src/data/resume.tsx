@@ -217,7 +217,46 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Visit Manglore",
+      title: "JK Jewellery",
+      href: "https://jkdxb.com",
+      dates: "Apr 2026 - May 2026",
+      active: true,
+      description:
+        "A responsive website for JK Jewellery, a fine jewellery store based in Dubai, UAE. The website showcases their collection, featured pieces, and provides contact information for customers.",
+      technologies: ["React", "Typescript", "TailwindCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://jkdxb.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/jk.png",
+    },
+    {
+      title: "Resulyze",
+      href: "https://ai-resulyze.vercel.app/",
+      dates: "May 2026",
+      active: true,
+      description:
+        "An AI-powered resume analyzer that evaluates resumes and provides detailed feedback, scores, and actionable suggestions to help users improve their job applications.",
+      technologies: ["React", "Typescript", "TailwindCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://ai-resulyze.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Nazaliqbaal/-ai-resume-analyzer",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/resulyze.png",
+    },
+    {
+      title: "Visit Mangalore",
       href: "https://visitmangalore.in/",
       dates: "June 2023 - Present",
       active: true,
@@ -254,7 +293,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/tac-bg.png",
+      image: "/tac.png",
     },
     {
       title: "Zeta Logistics",
@@ -276,7 +315,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/zeta-bg.png",
+      image: "/zeta.png",
     },
     {
       title: "Leens Trading",
@@ -298,7 +337,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/leens-bg.png",
+      image: "/leens.png",
     },
     {
       title: "Personal Finance Tracker",
@@ -342,7 +381,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/smartbp-bg.PNG",
+      image: "/smartbp.PNG",
     },
   ],
 } as const;
