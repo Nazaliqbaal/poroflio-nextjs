@@ -369,27 +369,5 @@ export const DATA = {
       ],
       image: "/pft-bg.png",
     },
-    {
-      title: "Blood Pressure Checker",
-      href: "https://smartbp-checkbloodpressure.netlify.app/",
-      dates: "April 2023 - September 2023",
-      active: true,
-      description:
-        "Blood Pressure State Checker is a web application designed to help users monitor their blood pressure readings using diastolic (dia) and systolic (sys) values.",
-      technologies: ["Vanilla Javascript"],
-      links: [
-        {
-          type: "Website",
-          href: "https://smartbp-checkbloodpressure.netlify.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Nazaliqbaal/smart-bp-web-static",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/smartbp.PNG",
-    },
   ],
 } as const;
